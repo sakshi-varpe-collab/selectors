@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: brown; */
+}
+
+.nav{
+    height: 10%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+}
+
+.left-part{
+    height: 100%;
+    width: 20%;
+    /* background-color: chocolate; */
+}
+
+.left-part h1{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: cursive;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.mid-part{
+    height: 100%;
+    width: 80%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.mid-part a{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    padding-top: 30px;
+    height: 100%;
+}
+
+.ExHome{
+    height: 30vh;
+    width: 25vw;
+    background-color: brown;
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    display: none;
+}
+
+.Ex:hover + .ExHome{
+    display: block;
+}
+
+.ExHome:hover{
+    display: block;
+}
+
+.right-part{
+    height: 100%;
+    width: 20%;
+    /* background-color: cornflowerblue; */
+    padding-top: 30px;
+}
+
+.right-part button{
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    /* gap: 50px; */
+}
+
+.right-part .b2{
+    background-color: black;
+    color: white;
+    padding: 1.4vh 2vw;
+    margin-left: 1vw;
+    border-radius: 50px;
+} 
